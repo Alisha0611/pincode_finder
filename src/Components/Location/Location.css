@@ -1,0 +1,40 @@
+.l{
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #43cea2, #185a9d);
+}
+
+.l-head{
+    margin: 0px;
+}
+
+.l-wrapper{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 500%;
+}
+
+input{
+    border-radius: 20px;   
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+   }
+
+.l-button{
+    border: none;
+    padding: 15px;
+    background-color:  #fff;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.l-button:hover{
+    background: linear-gradient(to bottom right, #2964a0,  #23a77b);
+    color: #fff;
+    border: 2px solid #fff;
+}

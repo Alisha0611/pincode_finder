@@ -1,0 +1,89 @@
+.h{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #43cea2, #185a9d);
+}
+
+.h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-head{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.h-static{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.h-search-wrapper{
+    display: inline-flex;
+    margin-left: 25%;
+}
+
+.h-dynamic li{
+    list-style: none;
+    font-size: 25px;
+    margin-left: -30px;
+    height: 50px;
+    font-size: 25px;
+    color: #000;
+}
+
+
+.h-search-wrapper {
+    height: 50px;
+    overflow: hidden;
+}
+  
+.h-dynamic {
+    height: 100%;
+    animation: move 8s ease-in-out infinite alternate;
+}
+  
+@keyframes move {
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    75% {
+      transform: translateY(-150px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+}
+  
+.h-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    line-height: 500%;
+}
+
+.h-location{
+    border: none;
+    padding: 15px;
+    background-color:  #fff;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.h-location:hover{
+    background: linear-gradient(to bottom right, #2964a0,  #23a77b);
+    color: #fff;
+    border: 2px solid #fff;
+}
